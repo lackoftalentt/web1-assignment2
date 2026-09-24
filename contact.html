@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--
+        Team: [TEAM NAME]
+        Student 1: [STUDENT 1 NAME]
+        Student 2: [STUDENT 2 NAME]
+        Group: [GROUP]
+    -->
+        <title>JDM Legends | Contact</title>
+        <meta
+            name="description"
+            content="Explore Japanese cars, culture and community with JDM Legends, an HTML and CSS student project."
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <a class="skip-link" href="#main-content">Skip to content</a>
+        <header id="main-header" class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="index.html"
+                    ><span class="brand-mark" aria-hidden="true">●</span> JDM<span>LEGENDS</span></a
+                >
+                <nav class="nav-menu" aria-label="Main navigation">
+                    <a href="index.html">Home</a>
+                    <a href="cars.html">Cars</a>
+                    <a href="culture.html">Culture</a>
+                    <a href="contact.html" class="active" aria-current="page">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="main-content" class="container">
+            <section class="page-intro">
+                <p class="eyebrow">03 / Find your people</p>
+                <h1>Join the JDM <span>Community.</span></h1>
+                <p>
+                    Every enthusiast has a story. Tell us about your favorite manufacturer, your
+                    style and what brought you to Japanese car culture.
+                </p>
+            </section>
+            <div class="contact-layout">
+                <section class="form-section" aria-labelledby="form-heading">
+                    <h2 id="form-heading">Start a conversation</h2>
+                    <p id="demo-note" class="notice">
+                        <strong>Classroom demo:</strong> this form has no backend. Messages are not
+                        delivered or saved. Use sample details only; submitting reloads this page
+                        with the entries in the URL.
+                    </p>
+                    <form
+                        id="contact-form"
+                        class="contact-form"
+                        action="#"
+                        method="get"
+                        aria-describedby="demo-note"
+                    >
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="name">Name <span>(required)</span></label>
+                                <input
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    placeholder="Your name"
+                                    autocomplete="name"
+                                    required
+                                    maxlength="100"
+                                />
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email <span>(required)</span></label>
+                                <input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    required
+                                />
+                            </div>
+                        </div>
+                        <label for="manufacturer">Favorite Manufacturer</label>
+                        <select id="manufacturer" name="manufacturer">
+                            <option value="">Choose a manufacturer</option>
+                            <option value="nissan">Nissan</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="honda">Honda</option>
+                            <option value="mazda">Mazda</option>
+                            <option value="mitsubishi">Mitsubishi</option>
+                            <option value="subaru">Subaru</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <fieldset>
+                            <legend>Favorite JDM Style</legend>
+                            <div class="radio-options">
+                                <label
+                                    ><input type="radio" name="style" value="street" checked />
+                                    Street</label
+                                >
+                                <label
+                                    ><input type="radio" name="style" value="track" /> Track</label
+                                >
+                                <label
+                                    ><input type="radio" name="style" value="drift" /> Drift</label
+                                >
+                                <label
+                                    ><input type="radio" name="style" value="show" /> Show
+                                    Car</label
+                                >
+                                <label
+                                    ><input type="radio" name="style" value="oem-plus" />
+                                    OEM+</label
+                                >
+                            </div>
+                        </fieldset>
+                        <label for="color">Favorite Color</label>
+                        <input id="color" name="color" type="color" value="#e63946" />
+                        <label for="message">Message <span>(required)</span></label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Your dream car, a favorite memory, or a question…"
+                            required
+                            maxlength="2000"
+                        ></textarea>
+                        <button class="button" type="submit">
+                            Send Message <span aria-hidden="true">↗</span>
+                        </button>
+                    </form>
+                </section>
+                <aside class="community-panel">
+                    <img
+                        src="images/supra-placeholder.svg"
+                        alt="Generic sports coupe illustration placeholder for a Toyota Supra community feature"
+                        width="1000"
+                        height="540"
+                    />
+                    <div class="panel">
+                        <p class="eyebrow">A shared passion</p>
+                        <h2>Every build has a story.</h2>
+                        <p>
+                            Stock classics, thoughtful daily drivers and dedicated track cars all
+                            have a place in the conversation.
+                        </p>
+                        <h3>Community mindset</h3>
+                        <ul class="feature-list">
+                            <li>Respect different tastes and experience levels.</li>
+                            <li>Share knowledge and credit original creators.</li>
+                            <li>Enjoy organized meets and closed-course motorsport.</li>
+                        </ul>
+                        <a class="text-link" href="culture.html">Explore JDM culture →</a>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <a class="brand" href="index.html">JDM<span>LEGENDS</span></a>
+                <p>Engineering. Culture. Performance.</p>
+                <p>Created by [STUDENT 1 NAME] and [STUDENT 2 NAME]</p>
+                <p>
+                    Group: [GROUP] · Assignment #1 — HTML &amp; CSS Basics · Assignment #2 — Flexbox
+                    &amp; Grid
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

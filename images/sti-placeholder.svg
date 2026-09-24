@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+  <title id="title">Subaru Impreza WRX STI image placeholder</title>
+  <desc id="desc">Generic illustrated sports coupe on a dark background. Replace with a licensed photograph of the named model.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#567faf"/><stop offset="1" stop-color="#414950"/></linearGradient></defs>
+  <rect width="1000" height="540" fill="#1a1e21"/>
+  <circle cx="760" cy="202" r="145" fill="#b8323a" opacity=".65"/>
+  <path d="M0 362H1000M0 402H1000M0 442H1000" stroke="#34383b"/>
+  <text x="48" y="66" fill="#858a8d" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">JDM / GARAGE ARCHIVE</text>
+  <ellipse cx="510" cy="414" rx="385" ry="27" fill="#0b0d0e"/>
+  <path d="M114 353 157 316 292 298 392 226 594 226 713 299 824 316 890 352 885 393 117 393Z" fill="url(#paint)" stroke="#c4cbd0" stroke-width="2"/>
+  <path d="M315 298 402 240 482 240 482 298ZM497 240H583L676 298H497Z" fill="#111b23" stroke="#87959d" stroke-width="2"/>
+  <path d="M128 339 227 329 215 351 123 358ZM826 326 868 346 825 346Z" fill="#f1e8d4"/>
+  <path d="M725 305V278H810V285H743V309M127 374H881M492 303V363M521 315H551" fill="none" stroke="#252d33" stroke-width="6"/>
+  <g fill="#111416" stroke="#343a40" stroke-width="9"><circle cx="290" cy="385" r="58"/><circle cx="744" cy="385" r="58"/></g>
+  <g fill="#606b72" stroke="#c7cdd0" stroke-width="3"><circle cx="290" cy="385" r="34"/><circle cx="744" cy="385" r="34"/></g>
+  <g stroke="#171e23" stroke-width="8"><path d="M290 353V417M258 385H322M267 362 313 408M267 408 313 362M744 353V417M712 385H776M721 362 767 408M721 408 767 362"/></g>
+  <text x="48" y="493" fill="#c0c4c7" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">SUBARU IMPREZA WRX STI / IMAGE PLACEHOLDER</text>
+</svg>
