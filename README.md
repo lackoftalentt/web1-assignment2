@@ -8,14 +8,14 @@ A four-page introduction to Japanese Domestic Market cars, engineering, tuning a
 
 ```text
 Team name: [TEAM NAME]
-Group: [GROUP]
+Group: SE-2516
 
-Student 1: [STUDENT 1 NAME]
+Student 1: Dastan
 Pages:
 - index.html
 - cars.html
 
-Student 2: [STUDENT 2 NAME]
+Student 2: Beibarys
 Pages:
 - culture.html
 - contact.html
@@ -23,9 +23,9 @@ Pages:
 
 ## Pages
 
-- **Home:** JDM introduction, reasons for its popularity, six manufacturers and Student 1 biography placeholders.
+- **Home:** JDM introduction, reasons for its popularity, six manufacturers and Dastan’s team section.
 - **Cars:** six Flexbox cards linking to highlighted specification rows, an ordered top-five list and a five-column comparison table.
-- **Culture:** named Grid areas with a topics sidebar, community, drifting, modifications, terminology, a nine-image Grid gallery and Student 2 biography placeholders.
+- **Culture:** named Grid areas with a topics sidebar, community, drifting, modifications, terminology, a nine-image Grid gallery and Beibarys’s team section.
 - **Contact:** community introduction and a labeled demonstration form with text, email, select, radio, color and textarea controls.
 
 ## HTML Features Used
@@ -93,7 +93,7 @@ Use the **contents of `jdm-assignment-1/` as the publishing root** so `index.htm
 
 ## Before Submission
 
-Replace [TEAM NAME], [STUDENT 1 NAME], [STUDENT 2 NAME], [GROUP], biography/interest/hobby placeholders, and corresponding report placeholders. Add personal photos if required, capture report screenshots and enter the actual deployment URL after publishing. `ASSIGNMENT_1_REPORT_NOTES.md` is retained unchanged as historical preparation material. `ASSIGNMENT_2_REPORT_NOTES.md` describes the current implementation, includes all ten screenshot placeholders and a defense cheat sheet. Neither is a final DOCX report. Do not submit its reflection as your own until reviewed.
+Team members: Dastan and Beibarys. Group: SE-2516. Replace [TEAM NAME] and any remaining report placeholders. Add personal photos if required, capture report screenshots and enter the actual deployment URL after publishing. `ASSIGNMENT_1_REPORT_NOTES.md` is retained unchanged as historical preparation material. `ASSIGNMENT_2_REPORT_NOTES.md` describes the current implementation, includes all ten screenshot placeholders and a defense cheat sheet. Neither is a final DOCX report. Do not submit its reflection as your own until reviewed.
 
 ## Assignment 2 Implementation Map
 
@@ -131,8 +131,8 @@ The original content, table, form controls, biographies and credits are retained
 - [x] Form contains dropdown/radio/color selection.
 - [x] Form contains textarea.
 - [x] Form contains submit button.
-- [x] About Team Member section exists for Student 1.
-- [x] About Team Member section exists for Student 2.
+- [x] About Team Member section exists for Dastan.
+- [x] About Team Member section exists for Beibarys.
 - [x] Every page contains footer.
 - [x] Footer lists both students.
 - [x] css/style.css exists.
